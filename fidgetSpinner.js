@@ -40,7 +40,7 @@ function setup() {
 
 	fidget = new fidgetSpinner();
 
-	createCanvas(500, 500);
+	createCanvas(1360, 768);
 	background(0, 0, 255);
 
 }
@@ -55,8 +55,8 @@ function draw() {
 
 	background(0, 0, 255);
 	
-	textSize(24);
-	text("Total Spins: " + totalSpins, 2, 475);
+	textSize(75);
+	text("Total Spins: " + totalSpins, 2, 70);
 	
 	frameRate(20);
 
