@@ -47,13 +47,13 @@ function setup() {
 
 function draw() {
 
+	background(0, 0, 255);
+
 	if (!song.isPlaying()) {
 
 		song.play();
 
 	}
-
-	background(0, 0, 255);
 	
 	textSize(75);
 	text("Total Spins: " + totalSpins, 2, 70);
